@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-count-truthy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Count the number of truthy elements in an array.",
   "license": "Apache-2.0",
   "author": {
@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.0",
-    "@stdlib/array-base-assert-is-complex-typed-array": "github:stdlib-js/array-base-assert-is-complex-typed-array#main",
+    "@stdlib/array-base-assert-is-complex-typed-array": "^0.1.0",
     "@stdlib/array-base-resolve-getter": "^0.2.0",
     "@stdlib/strided-base-reinterpret-complex": "github:stdlib-js/strided-base-reinterpret-complex#main",
-    "@stdlib/types": "^0.3.1"
+    "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
     "@stdlib/array-base-to-accessor-array": "^0.2.0",
