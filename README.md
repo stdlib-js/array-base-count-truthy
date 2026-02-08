@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import countTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-truthy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-count-truthy/tags). For example,
+
+```javascript
 import countTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-truthy@v0.2.1-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ var out = countTruthy( x );
 <script type="module">
 
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import countTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-truthy@v0.2.1-esm/index.mjs';
+import countTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-truthy@esm/index.mjs';
 
 var x = bernoulli( 100, 0.5, {
     'dtype': 'generic'
