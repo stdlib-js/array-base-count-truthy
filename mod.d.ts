@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,15 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var bernoulli = require( '@stdlib/random-array-bernoulli' );
-var countTruthy = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var x = bernoulli( 100, 0.5, {
-	'dtype': 'generic'
-});
-console.log( x );
+import { Collection } from '@stdlib/types/array';
 
-var n = countTruthy( x );
-console.log( n );
+/**
+* Counts the number of truthy values in an array.
+*
+* @param x - input array
+* @returns number of truthy values
+*
+* @example
+* var x = [ 0, 1, 0, 1, 1 ];
+*
+* var out = countTruthy( x );
+* // returns 3
+*/
+declare function countTruthy( x: Collection ): number;
+
+
+// EXPORTS //
+
+export = countTruthy;
